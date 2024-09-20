@@ -1,13 +1,16 @@
 .cabecalho {
-    width: 24%;
-    background-color :white;
+    background-color : var(--branco);
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    position: relative;
+    color: black;
 }
 
 .container {
     display: flex;
     align-items: center;
+    color: black;
 }
 
 .container__botao:checked~.lista-menu {
@@ -29,16 +32,25 @@
    display: none;
    position: absolute;
    top: 10%;
+   color: black;
 }
+
 
 .lista-menu__título {
-    color: var(--preto);
+    color: var(--laranja);
     background-color: var(--branco);
-    font-weight: 700px;
+    font-weight: 700;
 }
 
-.lista-menu__link{
+.lista-menu__link {
     background-color: var(--azul-degrade);
-    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     text-transform: uppercase;
+}
+
+.lista-menu__item {
+    padding: 20px;
+    color: var(--preto);
+    background-color: var(--branco);
 }

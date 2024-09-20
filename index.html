@@ -7,26 +7,27 @@
     <link rel = "stylesheet" href = "style.css">
     <link rel = "stylesheet" href = "reset.css">
     <link rel = "stylesheet" href = "header.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 
 <header class = "cabecalho">
    
     <div class = "container">
-        <!--ADICIONAR A TAG INPUT AQUI-->
+
         <input type = "checkbox" id = "menu" placeholder class="container__botao"">
 
-        <!--ADICIONAR A TAG LABEL AQUI-->
         <label for = "menu">
             <span class = "cabecalho_menu-hamgurguer"></span>
         </label>
 
-        <!--ADICIONAR AS TAGS DE LISTA AQUI-->
         <ul class="lista-menu">
-       <a href = "#" class="lista-menu__link"> <li class="lista-menu__título">Categorias</li> </a>
-       <a href = "#" class="lista-menu__link"> <li class="lista-menu__item"> Prrogramação</li> </a>
-       <a href = "#" class="lista-menu__link"> <li class="lista-menu__item">Romance</li> </a>
-       <a href = "#" class="lista-menu__link"> <li class="lista-menu__item">Ficção científica</li> </a>
-       <a href = "#" class="lista-menu__link"> <li class="lista-menu__item">Diversos</li> </a>
+        <li class="lista-menu__título">Categorias</li>
+        <li class="lista-menu__item"> Prrogramação  <a href = "#" class="lista-menu__link"></a></li>
+        <li class="lista-menu__item">Romance <a href = "#" class="lista-menu__link"></a></li>
+        <li class="lista-menu__item">Ficção científica <a href = "#" class="lista-menu__link"></a></li>
+        <li class="lista-menu__item">Diversos <a href = "#" class="lista-menu__link"> </li>
        </ul>
        <a href = "#"> <img src = "IMG/Logo.svg" alt = "logotipo do aplicativo"> </a>
     </div>
@@ -40,7 +41,18 @@
 </header>
 
 <body>
-    <h1>Universo's Book</h1>
-    <p>Aqui você encontra o livro que você precisa!</p>
+    <section class="banner">
+    <h1 class="banner__título">Universo's Book</h1>
+    <p class="banner__texto">Aqui você encontra o livro que você precisa!</p>
+    <h2 class="banner__título"> Já sabe por onde começar</h2>
+    <p class="banner__texto"> Encontre o livro que precisa para o seu desenvolvimento</p>
+    <input type="search" class="banner__pesquisa" placeholder="Qual sua próxima pesquisa">
+    </section>
+
+    <section class="carossel">
+        <div class="swiper">
+
+        </div>
+    </section>
 </body>
 </html>
