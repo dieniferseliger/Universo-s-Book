@@ -9,3 +9,14 @@
     font-weight: 300;
     margin-bottom: 1em;
 }
+
+.topicos__lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.topicos__item {
+    display: flex;
+    padding: 2em
+}
