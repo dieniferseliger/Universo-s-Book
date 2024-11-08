@@ -21,3 +21,9 @@
     padding: 2em 0,5em ;
     margin-left: 250px;
 }
+
+.topicos__ancora {
+    color:var(--branco);
+    background-color: var(--laranja);
+
+}
