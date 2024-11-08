@@ -25,5 +25,6 @@
 .topicos__ancora {
     color:var(--branco);
     background-color: var(--laranja);
-
+    font-size: 14px;
+    text-align: none;
 }
