@@ -6,5 +6,6 @@
 
 .topicos__título {
     color: var(--branco);
-    
+    font-weight: 300;
+    margin-bottom: 1em;
 }
